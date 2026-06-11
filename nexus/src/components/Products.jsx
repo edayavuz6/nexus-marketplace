@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useProducts } from "../hooks/useProducts";
 import ProductCard from "./ProductCard";
-import { ProductSkeleton } from "./Skeleton";
-import ProductModal from "./ProductModal";
+import { ProductSkeleton } from "./Skeleton.jsx";
+import ProductModal from "./ProductModal.jsx";
 
 const sortOptions = [
   { value: "default", label: "Featured" },
